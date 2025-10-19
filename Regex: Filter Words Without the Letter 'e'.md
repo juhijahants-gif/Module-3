@@ -16,13 +16,14 @@ To write a Python program that filters out and returns all elements from a list 
 ## 🧾 Program
 ```
 import re
-words = ['apple', 'banana', 'cherry', 'date', 'fig', 'grape']
-pattern = re.compile(r'^[^e]*$')
-filtered_words = [word for word in words if pattern.match(word)]
-print("Words without the letter 'e':", filtered_words)
+i = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+a=r"^[^e]*$"
+d=(n for n in i if re.match(a,n))
+print(list(d))
 ```
 ## Output
-<img width="490" height="42" alt="Screenshot 2025-10-14 210831" src="https://github.com/user-attachments/assets/d5d718e7-e76c-4cff-8602-413a3b37574c" />
+![WhatsApp Image 2025-10-19 at 21 01 12_ed3a65aa](https://github.com/user-attachments/assets/d7127b85-90be-432f-8c46-03807af54529)
+
 
 ## Result
 The program successfully filters and returns all elements from the list that do not contain 'e',using regex
