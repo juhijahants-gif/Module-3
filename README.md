@@ -11,11 +11,9 @@ To write a Python program that calculates the *sum of all elements* in a list.
 
 ## 🧾 Program
 ```
-items=[1,6,4,7,8,9,5,3]
-sum_numbers=0
-for x in items:
-       sum_numbers+=x
-print(sum_numbers)
+def remove(s):
+n=int(input())
+print(s[:n]+s[n+1:])
 ```
 
 ## Output
