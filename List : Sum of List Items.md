@@ -10,17 +10,15 @@ To write a Python program that calculates the **sum of all elements** in a list.
 
 ## 🧾 Program
 ```
-# Define the list
-numbers = [1, 2, 3, 4, 5]
-
-# Calculate the sum using the built-in sum() function
-total = sum(numbers)
-
-# Print the result
-print("Sum of all elements:", total)
+items=[1,6,4,7,8,9,5,3]
+sum_numbers=0
+for x in items:
+       sum_numbers+=x
+print(sum_numbers)
 ```
 ## Output
-<img width="331" height="42" alt="Screenshot 2025-10-14 210150" src="https://github.com/user-attachments/assets/704e754b-ba00-465b-a828-30a2622df189" />
+![WhatsApp Image 2025-10-19 at 19 40 45_b55a8b05](https://github.com/user-attachments/assets/d44fe56b-e833-45c3-a722-c0f1b1e7b822)
+
 
 ## Result
 The program successfully creates sum of all elements in list
