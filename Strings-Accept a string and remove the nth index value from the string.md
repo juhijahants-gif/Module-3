@@ -16,18 +16,14 @@ To write a Python program that accepts a string and removes the character at a s
 
 ## 💻 Program
 ```
-def remove(string, n):
-    a = ""  
-    for i in range(len(string)):
-        if i != n: 
-            a = a + string[i]
-    return a
-string = input("Enter a string: ")
-n = int(input("Enter the index to remove: "))
-print("Modified string:", remove(string, n))
+items=[1,6,4,7,8,9,5,3]
+sum_numbers=0
+for x in items:
+       sum_numbers+=x
+print(sum_numbers)
 ```
 ## Output
-<img width="799" height="103" alt="image" src="https://github.com/user-attachments/assets/3e436ef5-0879-45bc-9020-d1038a7cc04a" />
+![WhatsApp Image 2025-10-19 at 19 44 25_db7b8fe9](https://github.com/user-attachments/assets/e7c8679a-250f-416f-8593-8191812994d3)
 
 
 ## Result
